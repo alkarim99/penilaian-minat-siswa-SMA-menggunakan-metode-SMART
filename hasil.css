@@ -1,0 +1,144 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #E8DED2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*navbar*/
+.navbar{
+	margin: 0;
+	padding: 0;
+	background-color: #056676;	
+	width: 100%;
+	min-height: 80px;
+}
+.navbar h1{
+	margin: 0;
+	float: left;
+	padding: 20px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+}
+.navbar .menu{
+	background-color: white;
+	display: inline-block;
+	float: right;
+	width: 280px;
+	height: 80px;
+	position: relative;
+}
+.navbar .menu .nama{
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	min-height: 30px;
+	width: 240px;
+	position: relative;
+	top: 15px;
+	left: 10px;
+}
+.navbar .menu img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	float: right;
+	padding: 5px;
+	margin-top: 3px;
+	margin-right: 3px;
+}
+.navbar .menu .submenu ul{
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 0;
+	position: relative;
+	/*top: 15%;*/
+	/*right: 0;*/
+	z-index: 2;
+	width: 280px;
+	display: none;
+}
+.navbar .menu:hover .submenu ul{
+	display: block;
+}
+.navbar .menu .submenu ul li:hover{
+	background-color: #A3D2CA;
+}
+.navbar .menu hr{
+	margin: 0;
+	padding: 0;
+}
+.navbar .menu .submenu ul li{
+	display: block;
+}
+.navbar .menu .submenu ul li a{
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+}
+.navbar .menu2{
+	float: right;
+	height: 80px;
+}
+.navbar .menu2 ul{
+	margin: 10px;
+	padding: 0;
+}
+.navbar .menu2 ul li{
+	display: inline-block;
+	padding: 20px 0px;
+	border-radius: 40px;
+}
+.navbar .menu2 ul li a{
+	padding: 20px 35px;
+	text-decoration: none;
+	color: black;
+}
+.navbar .menu2 ul .daftar, .masuk{
+	background-color: #A3D2CA;
+}
+.navbar .menu2 ul .daftar:hover, .masuk:hover{
+	background-color: #5EAAA8;
+}
+
+/*content*/
+.content{
+	margin: 25px auto;
+	width: 1000px;
+	position: relative;
+}
+.content a{
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 5px;
+	border-radius: 10px;
+	background-color: #A3D2CA;
+	text-decoration: none;
+	color: black;
+}
+.content a:hover{
+	background-color: #5EAAA8;
+}
+
+/*Content table*/
+.content table{
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 15px;
+}
+.content table th, td{
+	border: 1px solid #999;
+    padding: 8px 20px;
+    text-align: center;
+}
+.content table th.no{
+	width: 5%;
+}
+.content table th.kode{
+	width: 10%;
+}
+.content table th.aksi{
+	width: 30%;
+}

@@ -1,0 +1,242 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #E8DED2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*navbar*/
+.navbar{
+	margin: 0;
+	padding: 0;
+	background-color: #056676;	
+	width: 100%;
+	min-height: 80px;
+}
+.navbar h1{
+	margin: 0;
+	float: left;
+	padding: 20px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+}
+.navbar .menu{
+	background-color: white;
+	display: inline-block;
+	float: right;
+	width: 280px;
+	height: 80px;
+	position: relative;
+}
+.navbar .menu p.nama{
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	min-height: 30px;
+	width: 240px;
+	position: relative;
+	top: 15px;
+	left: 10px;
+}
+.navbar .menu img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	float: right;
+	padding: 5px;
+	margin-top: 3px;
+	margin-right: 3px;
+}
+.navbar .menu .submenu ul{
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 0;
+	margin: 24px 0;
+	position: relative;
+	/*top: 50%;*/
+	/*right: 0;*/
+	z-index: 2;
+	width: 280px;
+	display: none;
+}
+.navbar .menu:hover .submenu ul{
+	display: block;
+}
+.navbar .menu .submenu ul li:hover{
+	background-color: #A3D2CA;
+}
+.navbar .menu hr{
+	margin: 0;
+	padding: 0;
+}
+.navbar .menu .submenu ul li{
+	display: block;
+}
+.navbar .menu .submenu ul li a{
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+}
+.navbar .menu2{
+	float: right;
+	height: 80px;
+}
+.navbar .menu2 ul{
+	margin: 10px;
+	padding: 0;
+}
+.navbar .menu2 ul li{
+	display: inline-block;
+	padding: 20px 0px;
+	border-radius: 40px;
+}
+.navbar .menu2 ul li a{
+	padding: 20px 35px;
+	text-decoration: none;
+	color: black;
+}
+.navbar .menu2 ul .daftar, .masuk{
+	background-color: #A3D2CA;
+}
+.navbar .menu2 ul .daftar:hover, .masuk:hover{
+	background-color: #5EAAA8;
+}
+
+/*content*/
+.content{
+	margin: 25px auto;
+	width: 1000px;
+	position: relative;
+}
+.content .jumbotron{
+	width: 100%;
+	min-height: 459px;
+	padding: 70px 40px;
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	background-image: url(6408.jpg);
+	background-size: cover;
+	position: relative;
+}
+.content .jumbotron .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+}
+.content .jumbotron .judul{
+	position: relative;
+	margin: 5px;
+	padding: 5px;
+}
+.content .jumbotron .judul h1{
+	font-size: 50px;
+}
+.content .jumbotron .judul p.pengantar{
+	margin: 5px auto;
+	width: 700px;
+}
+.content .jumbotron .menu{
+	position: relative;
+	margin: 5px;
+	padding: 5px;
+}
+.content .jumbotron .menu ul{
+	margin: 0;
+	padding: 0;
+}
+.content .jumbotron .menu ul li{
+	display: inline-block;
+	margin: ;
+	padding: 20px 0px;
+	border-radius: 40px;
+}
+.content .jumbotron .menu ul li a{
+	padding: 20px 35px;
+	text-decoration: none;
+	color: black;
+}
+.content .jumbotron .menu ul .admin, .soal, .kode, .smart{
+	background-color: #A3D2CA;
+}
+.content .jumbotron .menu ul .lanjut, .panduan{
+	background-color: #A3D2CA;
+}
+.content .jumbotron .menu ul li:hover{
+	background-color: #5EAAA8;
+}
+.content .riasec{
+	display: inline-block;
+}
+.content .riasec h3.judul{
+	font-size: 30px;
+	text-align: center;
+}
+.content .riasec .kartu{
+	border: 3px solid black;
+	border-radius: 22px;
+	margin: 10px;
+	padding: 15px;
+	width: 440px;
+	min-height: 300px;
+	float: left;
+}
+.content .mulai{
+	text-align: center;
+	padding: 40px 40px;
+	background-color: #056676;
+	color: white;
+}
+.content .mulai h3{
+	font-weight: 200;
+}
+.content .mulai .menu{
+	position: relative;
+	margin: 5px;
+	padding: 5px;
+}
+.content .mulai .menu ul{
+	margin: 0;
+	padding: 0;
+}
+.content .mulai .menu ul li{
+	display: inline-block;
+	margin: ;
+	padding: 20px 0px;
+	border-radius: 40px;
+}
+.content .mulai .menu ul li a{
+	padding: 20px 35px;
+	text-decoration: none;
+	color: black;
+}
+.content .mulai .menu ul .tes{
+	background-color: #A3D2CA;
+}
+.content .mulai .menu ul li:hover{
+	background-color: #5EAAA8;
+}
+
+/*footer*/
+.navbar .footer{
+	color: white;
+	text-align: center;
+	position: absolute;
+	margin: 20px;
+	padding: 10px;
+	float: left;
+}
+/*Warna
+E8DED2
+A3D2CA
+5EAAA8
+056676*/

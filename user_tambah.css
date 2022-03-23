@@ -1,0 +1,107 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #E8DED2;
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	background-color: white;
+	width: 800px;
+	height: 420px;
+	margin: 100px auto;
+	border-radius: 10px;
+	box-shadow: 5px 10px 18px #A3D2CA;
+}
+.judul{
+	background-color: #056676;
+	float: left;
+	height: 420px;
+	width: 300px;
+	border-radius: 10px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.judul a{
+	position: relative;
+	top: 5%;
+	padding: 0;
+	margin: 10px;
+	color: black;
+	text-decoration: none;
+}
+.judul h1{
+	color: white;
+	position: relative;
+	left: 10%;
+	top: 20%;
+	font-size: 28px;
+}
+.judul button{
+	background-color: #A3D2CA;
+	width: 70px;
+	height: 30px;
+	float: left;
+	position: relative;
+	left: 5%;
+}
+.judul button:hover{
+	background-color: #5EAAA8;
+}
+.alert{
+	width: 250px;
+	position: relative;
+	top: 20%;
+	left: 10%;
+}
+.alert p{
+	color: white;
+	background-color: red;
+	/*background-color: #5EAAA8;*/
+	position: absolute;
+	padding: 5px;
+}
+.form{
+	float: right;
+	position: relative;
+	top: 10%;
+	right: 2%;
+}
+.form-row{
+	width: 450px;
+	height: 25px;
+	padding: 10px;
+}
+.form-label{
+	width: 140px;
+	float: left;
+	padding: 5px;
+}
+.form-control{
+	width: 300px;
+	float: left;
+}
+.form input, button{
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	border-bottom: 1px solid #5EAAA8;
+	border-radius: 3px;
+	width: 280px;
+	height: 30px;
+}
+.form .file{
+	float: left;
+	position: absolute;
+	padding: 5px;
+	border: none;
+	width: 200px;
+}
+.form .submit{
+	width: 80px;
+	height: 30px;
+	background-color: #A3D2CA;
+	float: right;
+	border: none;
+}
+.form .submit:hover{
+	background-color: #5EAAA8;
+}

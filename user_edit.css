@@ -1,0 +1,123 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #E8DED2;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	text-align: center;
+	margin: 30px;
+}
+.container{
+	background-color: white;
+	width: 800px;
+	height: 420px;
+	margin: 0px auto;
+	border-radius: 10px;
+	box-shadow: 5px 10px 18px #A3D2CA;
+}
+.container .judul{
+	background-color: #056676;
+	float: left;
+	height: 420px;
+	width: 300px;
+	border-radius: 10px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.container .judul a{
+	position: relative;
+	top: 5%;
+	padding: 0;
+	margin: 10px;
+	color: black;
+	text-decoration: none;
+}
+.container .judul button{
+	background-color: #A3D2CA;
+	width: 70px;
+	height: 30px;
+	float: left;
+	position: relative;
+	left: 5%;
+}
+.container .judul button:hover{
+	background-color: #5EAAA8;
+}
+.container .judul img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	float: left;
+	position: relative;
+	top: 20%;
+	left: -6%;
+}
+.container .judul .alert{
+	position: relative;
+	top: 65%;
+	left: 10%;
+}
+.container .judul .alert p{
+	color: white;
+	background-color: red;
+	/*background-color: #5EAAA8;*/
+	position: absolute;
+	padding: 5px;
+}
+.container .form{
+	float: right;
+	position: relative;
+	top: 5%;
+	right: 2%;
+}
+.container .form .form-row{
+	width: 450px;
+	height: 25px;
+	padding: 10px;
+}
+.container .form .form-label{
+	width: 140px;
+	float: left;
+	padding: 5px;
+}
+.container .form .form-control{
+	width: 300px;
+	float: left;
+}
+.container .form input, button{
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	border-bottom: 1px solid #5EAAA8;
+	border-radius: 3px;
+	width: 280px;
+	height: 30px;
+}
+.container .form .file{
+	float: left;
+	position: absolute;
+	padding: 5px;
+	border: none;
+	width: 200px;
+}
+.container .form .submit{
+	width: 80px;
+	height: 30px;
+	background-color: #A3D2CA;
+	float: right;
+	border: none;
+}
+.container .form .submit:hover{
+	background-color: #5EAAA8;
+}
+.container .form-row a.hapus button{
+	border: none;
+	width: 100px;
+	height: 30px;
+	background-color: #A3D2CA;
+	position: relative;
+	left: 5%;
+}
+.container .form-row a.hapus button:hover{
+	background-color: #5EAAA8;
+}
